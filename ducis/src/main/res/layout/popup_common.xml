@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_popup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rectangle_white"
+    android:layout_margin="15dp"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_popup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/text_title"
+        />
+    <TextView
+        android:id="@+id/tv_popup_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/text_cancel"
+        android:text="取消"
+        android:layout_below="@id/tv_popup_title"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_popup_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/text_sure"
+        android:text="确定"
+        android:layout_below="@id/tv_popup_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        />
+</RelativeLayout>
